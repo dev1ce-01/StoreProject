@@ -15,7 +15,7 @@ namespace ConnectionLesson.Services
     string codeTelephone = Convert.ToString(random.Next(1000, 100000));
 
     string accountSid = ("AC158ee0f159e5c5b155a0c817ec95d1c0");
-    string authToken = ("bddc833e75d81ba952baf1edc03aa9bf");
+    string authToken = ("aef6a3e1a9062d18ec2b3234cb56fc9e");
 
     TwilioClient.Init(accountSid, authToken);
 
